@@ -1,0 +1,50 @@
+/* 
+#FFFFFF
+#212121
+#757575
+#2196F3
+#EEEEEE
+#000000
+#F5F4FA
+#2F303A
+#ECECEC */
+
+/* 
+.nav-link:hover,
+.nav-link:focus {
+    color: ;
+} */
+
+:root {
+  /* Шрифты */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  /* Цвета */
+  --logo-color: #2196f3;
+  --main-color: #757575;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+  /* color: #2196f3; */
+  /* color: aquamarine; */
+}
