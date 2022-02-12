@@ -30,6 +30,7 @@ body {
 .link {
   text-decoration: none;
 }
+
 /* <!--Верхняя линия--> */
 .logo {
   font-family: var(--secondary-font);
@@ -182,4 +183,7 @@ body {
 .below-project-title {
   font-size: 16px;
   line-height: 1.87;
+}
+.page-open {
+  color: var(--accent-color);
 }
