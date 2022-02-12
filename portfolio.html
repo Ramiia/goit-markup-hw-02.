@@ -17,32 +17,32 @@
   <body>
     <!--Верхняя линия-->
     <header class="header">
-      <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
+      <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
 
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
-          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+        <ul class="nav-list list">
+          <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
+          <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
-      <h1>Наши работы</h1>
+      <h1 class="hiding-title">Наши работы</h1>
       <!--filters-->
       <section class="filters">
-        <ul class="filters-list">
+        <ul class="filters-list list">
           <li class="filter-item">
             <button class="filter-button" type="button">Все</button>
           </li>
           <li class="filter-item">
-            <button class="filter-button" type="button">Веб-сайтф</button>
+            <button class="filter-button" type="button">Веб-сайты</button>
           </li>
           <li class="filter-item">
             <button class="filter-button" type="button">Приложения</button>
@@ -57,7 +57,7 @@
       </section>
       <!-- projects -->
       <section class="projects">
-        <ul class="projects-list">
+        <ul class="projects-list list">
           <li class="project-item">
             <img
               src="./images/project1.jpg"
@@ -95,9 +95,7 @@
           </li>
           <li class="project-item">
             <img
-              s
-              class="project-title"
-              rc="./images/project5.jpg"
+              src="./images/project5.jpg"
               class="below-project-title"
               alt="Две коробки белого и бежевого цветов"
               width="370"
@@ -151,20 +149,25 @@
     </main>
 
     <!--Подвал-->
-    <footer>
-      <a href="/">Web<span>Studio</span></a>
-      <address>
-        <ul>
-          <li>
+    <footer class="footer">
+      <a class="logo link" href="/">Web<span class="logo-footer">Studio</span></a>
+      <address class="footer-address">
+        <ul class="address-list list">
+          <li class="address-item">
             <a
+              class="address-link link"
               href="https://goo.gl/maps/ndWRgn6NENqnZqbK6"
               target="_blank"
               rel="noreferrer noopener"
-              >. Киев, пр-т Леси Украинки, 26</a
+              >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li class="address-item">
+            <a class="address-contact-link link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="address-item">
+            <a class="address-contact-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
