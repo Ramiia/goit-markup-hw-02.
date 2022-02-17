@@ -34,7 +34,7 @@ body {
 /* <!--Верхняя линия--> */
 .logo {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -88,7 +88,7 @@ body {
 .hero-buttom {
   background-color: var(--accent-color);
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -117,7 +117,8 @@ body {
 }
 
 .benefit-title {
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-title);
@@ -127,8 +128,9 @@ body {
 }
 /* <!--Чем мы занимаемся--> */
 .upper-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
+  letter-spacing: 0.03em;
   line-height: 1.17;
   text-align: center;
   color: var(--main-title);
@@ -142,6 +144,7 @@ body {
   /* text-align: center; */
 }
 .command-title {
+  font-size: 16px;
   font-weight: 500;
   color: var(--main-title);
 }
@@ -168,6 +171,7 @@ body {
   line-height: 1.62;
   text-align: center;
   color: var(--main-title);
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
